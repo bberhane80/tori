@@ -1,0 +1,21 @@
+<h1>Order Calculation Results</h1>
+
+<p>Projecting at <%= (@projection * 100).to_i %>% of normal sales</p>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Normal</th>
+    <th>Needed</th>
+  </tr>
+  
+  <% @results.each do |item| %>
+    <tr>
+      <td><%= item[:name] %></td>
+      <td><%= item[:normal] %> <%= item[:unit] %></td>
+      <td><%= item[:needed] %> <%= item[:unit] %></td>
+    </tr>
+  <% end %>
+</table>
+
+<a href="/">New Calculation</a>

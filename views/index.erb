@@ -1,0 +1,17 @@
+<h1>Restaurant Order Calculator</h1>
+
+<form method="post" action="/calculate">
+  <label>Sales Projection (% of normal): 
+    <input type="number" name="projection" value="100" min="1" max="200" required>
+  </label>
+  
+  <h3>Normal Weekly Usage:</h3>
+  
+  <% ITEMS.each do |item| %>
+    <label><%= item[:name] %> (<%= item[:unit] %>):
+      <input type="number" name="<%= item[:name].downcase %>" required>
+    </label>
+  <% end %>
+  
+  <button type="submit">Calculate</button>
+</form>
