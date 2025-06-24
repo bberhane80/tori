@@ -14,6 +14,7 @@ gem "sinatra-activerecord"
 
 gem "http"
 gem "dotenv"
+gem 'sqlite3', '~> 1.4'
 
 group :development do
   gem "better_errors"
