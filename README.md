@@ -1,18 +1,14 @@
-# sinatra-template
+A simple web app to help burger restaurants:
 
-Use this repository to create new Sinatra apps. 
+Track food inventory
 
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
+Calculate how much to order
 
-```ruby
-require "sinatra/activerecord"
-```
+Plan based on expected sales
 
-And in the `config/environment.rb` file add this code block:
+How to Use
+Calculate Orders:
 
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+Enter your sales estimate (like "80" for 80% of normal sales)
+
+See exactly how much of each ingredient you need
