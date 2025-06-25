@@ -1,4 +1,4 @@
-A simple web app to help burger restaurants:
+A simple web app to help fast food burger joints manage inventory
 
 Track food inventory
 
