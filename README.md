@@ -1,14 +1,18 @@
-A simple web app to help fast food burger joints manage inventory
+Simple Inventory Manager
+A simple web app to help fast food burger joints manage inventory efficiently.
 
-Track food inventory
+Features
+Track Food Inventory
+Monitor your current stock levels of burgers, fries, and soda.
 
-Calculate how much to order
+Calculate How Much to Order
+Get precise ordering recommendations based on your inventory and sales forecasts.
 
-Plan based on expected sales
+Plan Based on Expected Sales
+Adjust calculations according to expected sales volume (e.g., busy days vs. slow days).
 
 How to Use
-Calculate Orders:
+Calculate Orders
+Enter your sales estimate (e.g., "80" for 80% of normal sales)
 
-Enter your sales estimate (like "80" for 80% of normal sales)
-
-See exactly how much of each ingredient you need
+View exactly how much of each ingredient you need to order
